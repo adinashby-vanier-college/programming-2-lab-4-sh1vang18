@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "containerWithMostWaterTest1",
+      "setup": "gradle clean",
+      "run": "gradle test --tests LabFourTests.containerWithMostWaterTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "containerWithMostWaterTest2",
+      "setup": "",
+      "run": "gradle test --tests LabFourTests.containerWithMostWaterTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "threeSumClosestTest1",
+      "setup": "",
+      "run": "gradle test --tests LabFourTests.threeSumClosestTest1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    },
+    {
+      "name": "threeSumClosestTest2",
+      "setup": "",
+      "run": "gradle test --tests LabFourTests.threeSumClosestTest2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25
+    }
+  ]
+}
